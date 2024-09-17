@@ -1,1 +1,1 @@
-echo "${MY_SECRET:-'no secret'}"
+echo $MY_SECRET
