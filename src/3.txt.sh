@@ -1,1 +1,0 @@
-echo $MY_SECRET
