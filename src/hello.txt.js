@@ -1,0 +1,1 @@
+process.stdout.write("My name is:" + process.env.HELLO);
