@@ -5,4 +5,4 @@ const response = await fetch(
     accept: "application/vnd.github.v3+json"
   }}
 );
-process.stdout.write(await JSON.stringify(response));
+process.stdout.write(JSON.stringify(await response.json()));
